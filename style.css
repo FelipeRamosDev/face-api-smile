@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas{
+    position: absolute;
+}
+
+face-result {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333dd;
+}
+
+face-result h1{
+    font-size: 3em;
+    color: #f7f7f7;
+}
+face-result button{
+    border: 3px solid #f7f7f7;
+    background: none;
+    border-radius: 10px;
+    padding: 15px;
+    color: #f7f7f7;
+    width: 150px;
+}
